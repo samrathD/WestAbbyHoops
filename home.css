@@ -1,0 +1,12 @@
+.bodyContainer{
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr 1rem;
+    column-gap: 10rem; 
+}
+
+.text{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
