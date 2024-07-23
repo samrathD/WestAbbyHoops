@@ -194,6 +194,7 @@ body {
     background-color: #000; /* Black background */
     color: white;
     padding: 1rem 0; /* Reduced padding */
+    height: 400px;
 }
 
 .footer .container {
@@ -201,6 +202,7 @@ body {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: 400px;
 }
 
 .footer h5 {
@@ -224,7 +226,12 @@ body {
 }
 
 /* Carousel Styles */
+/* Carousel Styles */
 .carousel-inner img {
-    max-height: 500px;
-    object-fit: cover;
+    width: 100%;
+    height: 500px; /* Set a specific height */
+    object-fit: cover; /* Cover the container while maintaining the aspect ratio */
 }
+
+
+
