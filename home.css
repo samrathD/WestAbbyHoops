@@ -12,6 +12,7 @@ body {
 
 .navbar-brand {
     color: #00bfa6 !important; /* Teal color */
+    margin: 0px;
 }
 
 .navbar-nav .nav-link {
@@ -111,12 +112,12 @@ body {
     box-sizing: border-box;
 }
 
-.container {
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+} */
 
 .heading {
     overflow: hidden;
@@ -164,7 +165,8 @@ body {
         border-radius: 5%;
         margin-left: 2rem;
         margin-right: 2rem;
-    }
+        filter: drop-shadow(15px 10px 4px #444d4f);;    
+      }
 }
 
 @media (min-width: 992px) {
@@ -233,3 +235,6 @@ body {
 
 
 
+/* html {
+  scroll-behavior: smooth;
+} */
