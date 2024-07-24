@@ -1,9 +1,14 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Oswald", sans-serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
 }
+
+h1, h2, h3, h4, h5, h6 {
+    color: #00bfa6 !important; /* Teal color */
+}
+
 
 /* Navbar Styles */
 .navbar {
@@ -113,7 +118,7 @@ body {
   border-radius: 99rem;
   border-width: 2px;
   overflow: hidden;
-  padding: 0.8rem 3rem;
+  padding: 0.5rem 1rem;
   position: relative;
 }
 
@@ -201,6 +206,9 @@ body {
     .banner-text {
         font-size: 2rem; 
     }
+    .btn-12 {
+        font-size: small;
+      }
 }
 
 @media (max-width: 768px) {
@@ -231,7 +239,7 @@ body {
     border-right: 2px solid;
     animation: type 1.5s steps(90) 1.5s 1 normal both, cursor 1s step-end infinite;
     position: relative;
-    font-size: 5rem;
+    /* font-size: 5rem; */
 }
 
 @keyframes type {
@@ -340,6 +348,22 @@ body {
     object-fit: cover; 
 }
 
+.shift-down {
+    margin-top: 50px; /* Adjust the value to shift the element down */
+}
+
+.shift-down2 {
+    margin-top: 50px; /* Adjust the value to shift the element down */
+}
+
+.shift-down2 h1{
+    margin-top: 10px;
+}
+
+.image-shift {
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
 
 
 /* html {
