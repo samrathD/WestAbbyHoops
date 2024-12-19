@@ -427,34 +427,40 @@ h2, h3, h4, h5, h6 {
 
 
 /* Sponsor Tape */
-.sponsor-ticker {
+.ticker-tape {
+    display: flex;
     width: 100%;
     overflow: hidden;
-    white-space: nowrap;
+    padding-left: 100%;
     position: relative;
-    padding: 10px 0;
+    color: #f9f9f9; 
 }
 
-.ticker-content {
+.ticker-tape .ticker {
+    display: flex;
+    white-space: nowrap;
+    padding-right: 100%;
+    animation: ticker 10s linear infinite;
+}
+
+.ticker-tape .ticker__item {
     display: inline-flex;
     align-items: center;
-    animation: scroll 4.5s linear infinite;
-    width: calc(200%)
+    margin-right: 250px; /* Adjust spacing between items */
 }
 
-.sponsor-ticker img {
+.ticker__item img {
     max-height: 50px;
-    margin-left: 10px; /* Space between logos */
-    margin-right:150px;
+    margin-left: 10px; /* Space between text and image */
     object-fit: contain;
 }
 
-@keyframes scroll {
-    from {
-        transform: translateX(0%);
+@keyframes ticker {
+    0% {
+        transform: translateX(0);
     }
-    to {
-        transform: translateX(-10%);
+    100% {
+        transform: translateX(-210%);
     }
 }
 
