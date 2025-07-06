@@ -387,37 +387,20 @@ h6 {
     }
 }
 
-/* Footer Styles */
 .footer {
     background-color: #000;
-    /* Black background */
     color: white;
-    padding: 1rem 0;
-    /* Reduced padding */
-    height: 400px;
+    padding: 2rem 0;
 }
-
-.footer .container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: 400px;
-    padding-top: 20px;
-
-}
-
 
 .footer h5 {
     color: #00bfa6;
-    /* Teal color */
-    margin-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 .footer p,
 .footer a {
-    margin: 0.25rem 0;
-    /* Reduced margin */
+    margin: 0.5rem 0;
 }
 
 .footer a {
@@ -429,6 +412,19 @@ h6 {
     color: #00bfa6;
     text-decoration: underline;
 }
+
+/* Responsive Text Alignment */
+.footer .col-lg-4 {
+    margin-bottom: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Instagram icon spacing fix */
+.footer i.fa-instagram {
+    margin-left: 10px;
+}
+
 
 .carousel-inner img {
     width: 100%;
